@@ -31,17 +31,21 @@ body {
 		background-color var(--trans-dur),
 		color var(--trans-dur);
     
-    background-image: url('pag.jpg');
+    background-image: url('summerfond.avif');
+	
     background-repeat: no-repeat;
     background-size: cover; /* Ajusta la imagen para que cubra todo el tamaño del contenedor */
     width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
     height: 100vh;
 }
+
 h1 {
-	font-size: 2em;
+	font-size: 3em;
 	margin: 0 0 1rem;
 	padding-top: 1.5rem;
     text-align: center;
+	color: #141E46;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .btn {
