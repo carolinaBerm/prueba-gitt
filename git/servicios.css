@@ -9,3 +9,17 @@ textarea {
   width: calc(100% - 25px);
   border-radius: 10px;
 }
+
+.logo_travel {
+    width: 90;
+    height: 90px;
+}
+
+strong:hover {
+  color: orangered;
+}
+
+.imagen_servicio {
+  width: 250px;
+  height: 200px;
+}

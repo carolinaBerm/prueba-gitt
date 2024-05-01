@@ -36,7 +36,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover; /* Ajusta la imagen para que cubra todo el tamaño del contenedor */
     width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
-    height: 100vh;
+    height: 100%;
 }
 
 h1 {
@@ -44,15 +44,14 @@ h1 {
 	margin: 0 0 1rem;
 	padding-top: 1.5rem;
     text-align: center;
-	color: #141E46;
+	color: #000000;
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .btn {
-	background-color: var(--fg);
+	background-color: rgba(0, 0, 0, 0.397);
 	border-radius: 0.25em;
-	/* color: var(--bg); */
-	/* color: white; */
+	color:white;
 	cursor: pointer;
 	padding: 0.375em 0.75em;
 	transition:
@@ -60,15 +59,14 @@ h1 {
 		color var(--trans-dur);
 	-webkit-tap-highlight-color: transparent;
 }
-
 .btn:hover {
-	background-color: hsl(var(--hue),10%,50%);
+	background-color: black;
 }
+
 .btn-group {
 	display: flex;
 	gap: 0.375em;
 	margin-bottom: 1.5em;
-	text-align: center;
 }
 .timeline {
 	/* margin: 500px; */
@@ -181,6 +179,12 @@ h1 {
 	font-size: 1.5em;
 	line-height: 1.333;
 	color: black;
+}
+
+.timeline__title:hover {
+	font-size: 1.5em;
+	line-height: 1.333;
+	color: orangered;
 }
 /* Expanded state */
 .timeline__item-body--expanded {
