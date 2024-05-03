@@ -35,7 +35,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover; /* Ajusta la imagen para que cubra todo el tamaño del contenedor */
     width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
-    height: 100vh;
+    /*height: 100vh;*/
 }
 h1 {
 	font-size: 2em;
